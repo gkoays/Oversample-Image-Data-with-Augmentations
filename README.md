@@ -13,7 +13,7 @@ Prepare project;
   cd oversample-with-augmentation
   pip install requirements.txt
 ```
-* The repository have an example setup which contains an example label file. It can be downloaded from the example image dataset from [here](https://drive.google.com/drive/folders/1WS4clKiOp98mNKZgJyLAViVRSQ0B3bsq?usp=sharing) and extracted to `image_file_example` folder in the repository. The dataset is a part of the public [MRNet Dataset](https://stanfordmlgroup.github.io/competitions/mrnet/) which includes multiple channeled data in every .npy file. 
+* The repository have an example setup which contains an example label file. The example image dataset can be downloaded from [here](https://drive.google.com/drive/folders/1WS4clKiOp98mNKZgJyLAViVRSQ0B3bsq?usp=sharing) and extracted to `image_file_example` folder in the repository. The dataset is a part of the public [MRNet Dataset](https://stanfordmlgroup.github.io/competitions/mrnet/) which includes multiple channeled data in every .npy file. 
 * There should be a label information file which contains sample ids and labels like below. The repository contains an example label file in `./data/` folder.
 * The label file should be specified in "label_file" parameter in `config.py` file.
 

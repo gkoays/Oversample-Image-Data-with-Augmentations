@@ -1,0 +1,7 @@
+imgaug==0.4.0
+numpy==1.21.6
+pandas==1.2.4
+torch==1.12.0.dev20220210+cpu
+torchsample.egg==info
+torchvision==0.13.0.dev20220210+cpu
+tqdm==4.60.0

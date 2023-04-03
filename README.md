@@ -1,7 +1,7 @@
 
 # Oversample Image Data with Augmentation
 
-* This repository can be used for handle unbalanced image datasets with binary labels by applying some image augmentations.
+* This repository can be used for handling unbalanced image datasets with binary labels by applying some image augmentations.
 * It chooses the minority labeled samples and perform augmentations to oversample them by using torchsample.transform functions.
 * The repository is designed to work with .npy datasets, but it can be forked with a little effort to work with other type of datasets.
 ## Install and Run
